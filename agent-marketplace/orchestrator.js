@@ -1,5 +1,5 @@
 const Agent = require('./Agent');
-const { batchPayments } = require('./payment'); // Asigură-te că fișierul se numește payment.js
+const { batchPayments } = require('./payment'); //  payment.js
 
 async function startNegotiation() {
     console.log(" Starting AI Negotiation...");
