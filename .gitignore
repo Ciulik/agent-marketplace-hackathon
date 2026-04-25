@@ -1,0 +1,22 @@
+# --- CRITICAL: Security & Secrets ---
+# Never push your API keys or secrets to GitHub!
+.env
+
+# --- Project Dependencies ---
+node_modules/
+
+# --- Local Generated Reports ---
+# These are locally generated for each run. 
+# Keep them local; use screenshots in README for the judges.
+FINAL_REPORT.json
+DEMO_REPORT.html
+TRANSACTIONS.csv
+
+# --- Logs and System Files ---
+npm-debug.log*
+.DS_Store
+Thumbs.db
+
+# --- Optional: Local Wallet Backups ---
+# If your code generates a wallets.json, keep it local to avoid leaks.
+wallets.json
